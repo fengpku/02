@@ -6,7 +6,7 @@
 [![GitHub release](https://img.shields.io/github/release/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/releases)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Gaohaoyang/gaohaoyang.github.io/master/LICENSE)
 
-**[ 修改自](https://gaohaoyang.github.io)**
+**[本博客修改自gaohaoyang's blog](https://gaohaoyang.github.io)**
 
 
 ## License
