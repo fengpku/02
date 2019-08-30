@@ -4,7 +4,7 @@ title:  "table"
 date:   2015-02-10 15:14:54
 categories: jekyll
 tags: jekyll
-excerpt: 留个
+excerpt: liu
 mathjax: true
 ---
 
