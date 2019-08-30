@@ -2,10 +2,10 @@
 ---
 layout: post
 title:  "codes"
-date:   2015-02-10 15:14:54
+date:   2019-02-10 15:14:54
 categories: jekyll
 tags: jekyll
-excerpt: 吧
+excerpt: ba
 mathjax: true
 ---
 
