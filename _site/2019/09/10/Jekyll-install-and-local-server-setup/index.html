@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>table</title>
-    <meta name="description" content="liu">
+    <title>Jekyll install and local server set up</title>
+    <meta name="description" content="安装Jekyll以及建立github静态网页">
 
     <link rel="shortcut icon" href="/whale.png?" type="image/x-icon">
     <link rel="icon" href="/whale.png?" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_8v3czwksspqlg14i.css">
     <link rel="stylesheet" href="http://localhost:4000/css/main.css ">
-    <link rel="canonical" href="http://localhost:4000http://localhost:4000/2019/06/10/tables/">
+    <link rel="canonical" href="http://localhost:4000http://localhost:4000/2019/09/10/Jekyll-install-and-local-server-setup/">
     <link rel="alternate" type="application/rss+xml" title="YQ" href="http://localhost:4000http://localhost:4000/feed.xml ">
 
 
@@ -115,11 +115,11 @@
 
         <div class="page clearfix" post>
     <div class="left">
-        <h1>table</h1>
+        <h1>Jekyll install and local server set up</h1>
         <div class="label">
 
             <div class="label-card">
-                <i class="fa fa-calendar"></i>2019-06-10
+                <i class="fa fa-calendar"></i>2019-09-10
             </div>
 
             <div class="label-card">
@@ -139,7 +139,9 @@
   <i class="fa fa-th-list"></i>
   
     
-        <a href="/category/#jekyll" title="Category: jekyll" rel="category">jekyll</a>
+        <a href="/category/#jekyll" title="Category: jekyll" rel="category">jekyll</a>&nbsp;
+    
+        <a href="/category/#git" title="Category: git" rel="category">git</a>
     
   
 
@@ -157,7 +159,10 @@
   
     
         <!--a href="/tag/#jekyll" title="Tag: jekyll" rel="tag">jekyll</a-->
-        <a href="/tag/#jekyll" title="Tag: jekyll" rel="tag">jekyll</a>
+        <a href="/tag/#jekyll" title="Tag: jekyll" rel="tag">jekyll</a>&nbsp;
+    
+        <!--a href="/tag/#git" title="Tag: git" rel="tag">git</a-->
+        <a href="/tag/#git" title="Tag: git" rel="tag">git</a>
     
   
 
@@ -168,60 +173,143 @@
         </div>
         <hr>
         <article itemscope itemtype="http://schema.org/BlogPosting">
-        <p>Colons can be used to align columns.</p>
+        <h3 id="1-安装-ruby">1. 安装 Ruby</h3>
+<p>首先，点击下面的按钮，下载与您的系统架构（x86 / x64）相匹配的Ruby安装程序。</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Tables</th>
-      <th style="text-align: center">Are</th>
-      <th style="text-align: right">Cool</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>col 3 is</td>
-      <td style="text-align: center">right-aligned</td>
-      <td style="text-align: right">$1600</td>
-    </tr>
-    <tr>
-      <td>col 2 is</td>
-      <td style="text-align: center">centered</td>
-      <td style="text-align: right">$12</td>
-    </tr>
-    <tr>
-      <td>zebra stripes</td>
-      <td style="text-align: center">are neat</td>
-      <td style="text-align: right">$1</td>
-    </tr>
-  </tbody>
-</table>
+<p><a href="https://rubyinstaller.org/downloads/">Ruby Windows 下载</a> 选择同时安装 Ruby DevKit。 Jekyll具有一些依赖性，即开箱即用，只提供原始源代码，为了使其成为完全功能的可执行文件，需要安装开发工具包。</p>
 
-<p>There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don’t need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.</p>
+<h3 id="2-打开ruby-shell">2. 打开ruby shell</h3>
 
-<table>
-  <thead>
-    <tr>
-      <th>Markdown</th>
-      <th>Less</th>
-      <th>Pretty</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><em>Still</em></td>
-      <td><code class="highlighter-rouge">renders</code></td>
-      <td><strong>nicely</strong></td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-  </tbody>
-</table>
+<p><code class="highlighter-rouge">gem -h</code></p>
+
+<blockquote>
+  <p>测试安装是否成功</p>
+</blockquote>
+
+<h3 id="3-安装bundler">3. 安装bundler</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install bundler
+</code></pre></div></div>
+
+<blockquote>
+  <p>Bundler: The best way to manage a Ruby application’s gems</p>
+</blockquote>
+
+<h3 id="4-安装jekyll">4. 安装Jekyll</h3>
+
+<p>gem install jekyll</p>
+
+<h3 id="5-安装-jekyll-paginate">5. 安装 jekyll-paginate</h3>
+
+<p>在cmd中输入：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jekyll-paginate
+</code></pre></div></div>
+
+<h3 id="6-验证安装完成">6. 验证安装完成</h3>
+
+<p>在cmd中输入：</p>
+
+<p><code class="highlighter-rouge">jekyll -v</code></p>
+
+<h3 id="7-开启本地实时预览">7. 开启本地实时预览</h3>
+
+<p>切换到仓库所在目录，在cmd中输入:</p>
+
+<p><code class="highlighter-rouge">jekyll serve</code></p>
+
+<h3 id="8-安装git-连接github账户">8. 安装git, 连接github账户</h3>
+
+<p>启动git, 建立密钥</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh-keygen -t rsa -C "xxx@126.com"
+</code></pre></div></div>
+
+<h3 id="9将id_rsapub密钥填写到-github账户ssh-设置">9.将id_rsa.pub密钥填写到 github账户ssh 设置</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cat ~/.ssh/id_rsa.pub
+</code></pre></div></div>
+
+<p>以ssh-rsa开头</p>
+
+<h3 id="10将远程厂库克隆到本地">10.将远程厂库克隆到本地</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@github.com:xxx.git
+</code></pre></div></div>
+
+<h3 id="11-进入-githubfengpkugithubio-目录">11， 进入 ~/github/fengpku.github.io 目录</h3>
+
+<p>启动本地网页服务</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git serve
+</code></pre></div></div>
+
+<p>出现错误，根据提示运行</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem update
+</code></pre></div></div>
+
+<p>在Gemfile中添加</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source 'https://rubygems.org'
+</code></pre></div></div>
+
+<p>之后运行</p>
+
+<p><code class="highlighter-rouge">bundle install --no-deployment</code></p>
+
+<h3 id="12-启动本地网页服务">12. 启动本地网页服务</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll serve
+</code></pre></div></div>
+
+<h3 id="13搭建博客所遇到的问题">13.搭建博客所遇到的问题</h3>
+
+<p>搭建个人博客，jekyll框架提供了许多丰富的功能，也为我们省去许多麻烦。我们可以直接clone别人的模范，然后上传至自己的远程仓库去进行托管。但是，在制作个人博客时，遇到棘手的问题也真不少，好在逐个都解决了。</p>
+
+<p>下面，列出自己在搭建个人博客时所遇到一些问题。</p>
+
+<ul>
+  <li>问题 1</li>
+</ul>
+
+<blockquote>
+  <p>Could not load Bundler. Bundle install skipped.</p>
+</blockquote>
+
+<p>接着使用jekyll serve 的时候提示没有运行所需的buddle，从stackoverflow上找到的答案：使用 “gem install kekyll bundle” 便可解决。</p>
+<ul>
+  <li>问题 2
+    <blockquote>
+      <p>Could not find public_suffix-3.0.0 in any of the sources
+(Bundler::GemNotFound)</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p>如果将别人的项目直接clone下来，许多时候都会出现如上所示的错误。查阅资料发现，这是导致自身配置路径出现混乱而出现的问题。因此可以通过命令’ bundle install –path vendor/cache ’ or ’ bundle install –no-deployment ’ 去重新修正。</p>
+
+<ul>
+  <li>问题 3</li>
+</ul>
+
+<blockquote>
+  <p>You have already activated public_suffix 3.0.2,but your Gemfile
+requires public_suffix 3.0.0. Prepending <code class="highlighter-rouge">bundle exec</code> to your command
+may solve this. (Gem::LoadError)</p>
+</blockquote>
+
+<p>在解决问题 1 之后，这应该不算问题。此时只需执行” bundle exec jekyll serve “去启动服务器即可解决。（在这之前若一直使用 ‘jekyll s’ 启动，之后稍加注意即可。）</p>
+
+<p>上述所提到的，可以解决搭建过程中的许多问题。接着，简单提下具体步骤：</p>
+<ol>
+  <li>打开此电脑，选择一个文件夹，比如 f 盘的 test 文件，右键空白处点击 git bash here, 将该文件在终端打开；</li>
+  <li>执行命令git clone, git@github.com:tzhou2018/tzhou2018.github.io.git 将远程仓库clone下来</li>
+  <li>对 clone 下来的文档进行局部修改，然后提交上去。
+注意：提交过程可能会出错，根据提示一步步去改错。使用上文提到的解决方法应该可以解决。
+原文链接：https://blog.csdn.net/ZT7524/article/details/81638867</li>
+</ol>
+
 
         </article>
         <hr>
@@ -237,15 +325,13 @@ raw Markdown line up prettily. You can also use inline Markdown.</p>
                         <ul>
                         
                         <li class="relatedPost">
-                            <a href="/2019/09/10/Jekyll-install-and-local-server-setup/">Jekyll install and local server set up
+                            <a href="/2019/06/10/tables/">table
                             
                             </a>
                         </li>
                         
                         
                     
-                
-            
                 
                     
                 
@@ -268,6 +354,8 @@ raw Markdown line up prettily. You can also use inline Markdown.</p>
                         
                     
                 
+                    
+                
             
         
             
@@ -284,6 +372,8 @@ raw Markdown line up prettily. You can also use inline Markdown.</p>
                         
                     
                 
+                    
+                
             
         
         
@@ -293,13 +383,11 @@ raw Markdown line up prettily. You can also use inline Markdown.</p>
         <div class="post-recent">
     <div class="pre">
         
-        <p><strong>上一篇</strong> <a href="http://localhost:4000/2015/09/01/codes/">Codes</a></p>
+        <p><strong>上一篇</strong> <a href="http://localhost:4000/2019/06/10/tables/">table</a></p>
         
     </div>
     <div class="nex">
 
-        
-        <p><strong>下一篇</strong> <a href="http://localhost:4000/2019/09/10/Jekyll-install-and-local-server-setup/">Jekyll install and local server set up</a></p>
         
     </div>
 </div>

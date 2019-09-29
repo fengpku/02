@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll install and local server set up"
 date:   2019-09-10 4:06:54
-categories: jekyll git
+categories: wed_develop
 tags: jekyll git
 excerpt: 安装Jekyll以及建立github静态网页
 mathjax: true
