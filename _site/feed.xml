@@ -5,25 +5,9 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Sep 2019 10:16:22 -0400</pubDate>
-    <lastBuildDate>Sun, 29 Sep 2019 10:16:22 -0400</lastBuildDate>
+    <pubDate>Sun, 29 Sep 2019 10:45:37 -0400</pubDate>
+    <lastBuildDate>Sun, 29 Sep 2019 10:45:37 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
-    
-      <item>
-        <title>Jekyll install and local server set up</title>
-        <description>安装Jekyll以及建立github静态网页</description>
-        <pubDate>Tue, 10 Sep 2019 00:06:54 -0400</pubDate>
-        <link>http://localhost:4000/2019/09/10/Jekyll-install-and-local-server-setup/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/10/Jekyll-install-and-local-server-setup/</guid>
-        
-        <category>jekyll</category>
-        
-        <category>git</category>
-        
-        
-        <category>wed_develop</category>
-        
-      </item>
     
       <item>
         <title>table</title>
@@ -77,20 +61,6 @@ And if you’d like to use syntax highlighting, include the language:
         <link>http://localhost:4000/2015/09/01/codes/</link>
         <guid isPermaLink="true">http://localhost:4000/2015/09/01/codes/</guid>
         
-        
-      </item>
-    
-      <item>
-        <title>lists</title>
-        <description>当吧</description>
-        <pubDate>Tue, 10 Feb 2015 10:14:54 -0500</pubDate>
-        <link>http://localhost:4000/2015/02/10/list/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/02/10/list/</guid>
-        
-        <category>jekyll</category>
-        
-        
-        <category>jekyll</category>
         
       </item>
     
