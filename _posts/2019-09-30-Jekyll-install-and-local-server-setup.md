@@ -5,6 +5,7 @@ date:   2019-09-10 4:06:54
 categories: jekyll git
 tags: jekyll git
 excerpt: 安装Jekyll以及建立github静态网页
+mathjax: true
 ---
 
 
