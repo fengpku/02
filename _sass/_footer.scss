@@ -9,7 +9,7 @@
     .wrapper {
         width: 1200px;
         margin: 0 auto;
-        padding: 25px 0;
+        padding: 3px 0;
         text-align: center;
         font-size: 15px;
         p {
@@ -25,13 +25,15 @@
                     color: #000000;
                 }
                 i {
-                    margin: 0 10px;
-                    font-size: 15px;
+                    margin: 0 5px;
+                    font-size: 20px;
                 }
             }
         }
-        .description {
+        .stats {
             display: inline-block;
+			
+			
         }
         .power {
             a {

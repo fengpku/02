@@ -1,7 +1,7 @@
 header {
     background: #222;
-    height: 52px;
-    color: #9d9d9d;
+    height: 36px;
+    color: #FFFFFF;
     box-shadow: 0 2px 4px 1px rgba(0,0,0,0.5);
     margin-bottom: 20px;
     a {
@@ -15,13 +15,13 @@ header {
     .wrapper {
         width: 1200px;
         margin: 0 auto;
-        line-height: 32px;
+        line-height: 36px;
         .brand {
             font-size: 18px;
         }
         small {
-            margin-left: 26px;
-            font-size: 14px;
+            margin-left: 36px;
+            font-size: 16px;
         }
         .menu{
             display: none;
@@ -34,14 +34,14 @@ header {
                 padding: 0;
                 li {
                     list-style: none;
-                    font-size: 14px;
+                    font-size: 15px;
                     display: inline-block;
                     -webkit-transition: 0.2s ease;
                     transition: 0.2s ease;
                     a {
                         display: inline-block;
                         padding: 0 10px;
-                        height: 52px;
+                        height: 36px;
                         &:hover {
                             background-color: #9cb9c9;
                         }
@@ -61,10 +61,10 @@ header {
 }
 @media screen and (max-width:1200px) and (min-width: 770px) {
     header {
-        height: 50px;
+        height: 36px;
         .wrapper {
             width: 90%;
-            line-height: 50px;
+            line-height: 36px;
             .brand {
                 font-size: 16px;
             }
@@ -80,7 +80,7 @@ header {
                     li {
                         a {
                             padding: 0 8px;
-                            height: 50px;
+                            height: 36px;
                             i {
                                 margin-right: 4px;
                             }
@@ -93,12 +93,12 @@ header {
 }
 @media screen and (max-width: 770px) {
     header {
-        height: 48px;
+        height: 36px;
         margin-bottom: 15px;
         .wrapper {
             width: 95%;
             margin: 0 auto;
-            line-height: 48px;
+            line-height: 36px;
             position: relative;
             z-index: 101;
             .brand {
@@ -136,7 +136,7 @@ header {
                 position: absolute;
                 z-index: 100;
                 right:0;
-                top:47px;
+                top:36px;
                 text-align: center;
 
                 visibility: hidden;
@@ -155,8 +155,8 @@ header {
                         a {
                             display: block;
                             padding: 0 10px;
-                            height: 40px;
-                            line-height: 40px;
+                            height: 36px;
+                            line-height: 36px;
                         }
                         &:last-of-type{
                             border: none;
