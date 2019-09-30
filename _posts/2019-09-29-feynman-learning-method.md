@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "怎样更高效的学习"
-date:   2019-09-29 10:43:50
+date:   2019-09-30 21:27:50
 categories: Learning
 tags: Methods
 excerpt: 费曼四步学习法: 学习，讲解，找到gap，继续查资料学习，总结简化。
