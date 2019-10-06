@@ -8,7 +8,6 @@ excerpt: 费曼四步学习法: 学习，讲解，找到gap，继续查资料学
 mathjax: true
 ---
 
-
 ### 怎样更高效的学习
 
 - 学习半小时，休息娱乐十分钟，再继续，高效学习。
@@ -23,7 +22,6 @@ mathjax: true
  2. 尝试将这个概念解释给一个小孩。
  3. 找到自己不明白的地方。
  4. 通过类比总结简化。
-
 
 ![费曼四步学习法](https://alvinalexander.com/sites/default/files/2016-12/the-feynman-technique.jpg)
 
